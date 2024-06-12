@@ -16,6 +16,7 @@ function getBmi()
 }
 document.getElementById('cm').addEventListener('keypress',function changeFocus(event)
 {
+    event.preventDefault();
     if(event.key=='Enter')
         {
             kg.focus();
@@ -23,6 +24,7 @@ document.getElementById('cm').addEventListener('keypress',function changeFocus(e
 })
 document.getElementById('kg').addEventListener('keypress',function changeFocus(event)
 {
+    event.preventDefault();
     if(event.key=='Enter')
         {
             getBmi();
