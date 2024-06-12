@@ -4,6 +4,7 @@ function getBmi()
     let kg=Number(document.getElementById('kg').value);
     let heightinmet= parseFloat(cm/100);
     let Bmi=kg/(heightinmet*heightinmet);
+   
     Bmi=Bmi.toFixed(1)
     if(cm==0|| kg==0)
         {
@@ -13,3 +14,17 @@ function getBmi()
             document.getElementById('result').innerHTML=`Your BMI is ${Bmi} 😊`
         }
 }
+document.getElementById('cm').addEventListener('keypress',function changeFocus(event)
+{
+    if(event.key=='Enter')
+        {
+            kg.focus();
+        }
+})
+document.getElementById('kg').addEventListener('keypress',function changeFocus(event)
+{
+    if(event.key=='Enter')
+        {
+            getBmi();
+        }
+})
