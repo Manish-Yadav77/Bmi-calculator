@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://bmicalculatorbymanish.tiiny.site/)
+[https://ivory-leone-71.tiiny.site/)
 
   
   
