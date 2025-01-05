@@ -5,9 +5,6 @@
 
 <p id="description">Bmi-Calculator to calculate your Bmi at any time by just knowing your height in cm and your weight in kg</p>
 
-<h2>🚀 Demo</h2>
-
-[https://ivory-leone-71.tiiny.site/)
 
   
   
